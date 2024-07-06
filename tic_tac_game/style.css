@@ -1,0 +1,121 @@
+/* Resetting some default styles for consistency across browsers */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+  }
+  
+  body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('/image/uni.jpg') no-repeat center center fixed;
+      background-size: cover;
+      filter: brightness(75%);
+      /* filter: brightness(65%) sepia(30%) contrast(90%); */
+      z-index: -1;
+  }
+  
+  .container {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+  }
+  
+  header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #333;
+  }
+  
+  .scoreboard {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+  }
+  
+  .player-score h2 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      color: #333;
+  }
+  
+  .player-score p {
+      font-size: 1.5em;
+      color: #666;
+  }
+  
+  .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 20px;
+      background: url('/image/bg-img.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 10px;
+      border-radius: 10px;
+  }
+  
+  .cell {
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid #333;
+      border-radius: 5px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      cursor: pointer;
+      transition: background 0.3s;
+  }
+  
+  .cell.x::before {
+      content: 'X';
+      color: #333;
+  }
+  
+  .cell.o::before {
+      content: 'O';
+      color: #333;
+  }
+  
+  .cell:hover {
+      background: rgba(240, 240, 240, 0.9);
+  }
+  
+  footer {
+      margin-top: 20px;
+  }
+  
+  #restartButton {
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #fff;
+      background: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+  }
+  
+  #restartButton:hover {
+      background: #555;
+  }
+  
