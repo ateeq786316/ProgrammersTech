@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url("../images/bgblue.jpg"); /* Background image */
+}
+
+/* Header Styles */
+header {
+  /* background-color: #040404; */
+  /* background: linear-gradient(to right, #a1c4fd, #c2e9fb); Light blue gradient */
+  background-color: rgba(0, 31, 63, 0.8); /* Semi-transparent navy */
+  color: #fff; /* Text color */
+  padding: 1rem 0;
+  display: flex; /* Option 1: Default - Logo within navbar */
+  /* display: grid; grid-template-columns: 1fr auto; align-items: center; Option 2: Logo on the side */
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+header nav {
+  grid-column: 2; /* Place navbar in second column */
+  justify-content: flex-end; /* Align navbar items to the right */
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-left: 20px;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .logo {
+  margin-right: 20px;
+  width: 100px;
+  height: auto;
+}
+
+/* Home Section */
+#home {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Darker shade for cyan theme, adjust if needed */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin for better spacing */
+  }
+  
+  footer img {
+    display: block; /* Display logo image on its own line */
+    margin: 0 auto 1px; /* Center logo horizontally, add space below */
+    max-width: 150px; /* Set a maximum width for responsiveness */
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer ul li a:hover {
+    color: #ff6347; /* Adjust hover color for cyan theme */
+  }

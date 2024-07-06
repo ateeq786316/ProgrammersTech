@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="/style/login.css"> </head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+    </nav>
+    <img src="/images/logo.png" alt="Logo" class="logo">
+</header>
+  <!-- <div class="background-container"> <img src="/images/bgblue.jpg" alt="Background Image" class="background-image">  </div> -->
+  <section id="login">
+    <h2>Welcome Back!</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <script>  const backgroundImage = document.querySelector('.background-image');
+    backgroundImage.onload = function() {
+      document.body.classList.add('loaded');
+    };
+  </script>
+</body>
+</html>

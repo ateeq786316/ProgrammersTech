@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url("../images/bgblue.jpg"); /* Background image */
+}
+
+/* Header Styles */
+header {
+  background-color: #45bdd3;
+  /* background: linear-gradient(to right, #a1c4fd, #c2e9fb); Light blue gradient */
+  background-color: rgba(0, 31, 63, 0.8); /* Semi-transparent navy */
+  color: #fff; /* Text color */
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Move logo to the leftmost position */
+header .logo {
+  margin-right: 20px;
+  width: 100px;
+  height: auto;
+  flex: 0 0 auto; /* Makes logo shrink to fit content and not grow */
+}
+
+header nav {
+  display: flex; /* Change to block for vertical navbar (optional) */
+  /* Optional: Align items vertically within the navbar */
+  /* flex-direction: column; */
+  justify-content: space-between; /* Align navbar items evenly spaced */
+  flex: 1; /* Allow navbar to grow and fill remaining space */
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Signup Form Styles */
+#signup {
+  margin: 50px auto; /* Center form with some margin from top */
+  width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Darker text color for readability */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Darker text color for readability */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background-color: #fff; /* Opaque white background */
+}
+
+.inline-radio {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* Green login button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable button */
+  transition: background-color 0.2s ease; /* Add hover effect (optional) */
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green on hover (optional) */
+}
+
+/* Responsiveness (optional) */
+@media (max-width: 768px) {
+  #signup {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333; /* Darker shade for cyan theme, adjust if needed */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin for better spacing */
+  }
+  
+  footer img {
+    display: block; /* Display logo image on its own line */
+    margin: 0 auto 1px; /* Center logo horizontally, add space below */
+    max-width: 150px; /* Set a maximum width for responsiveness */
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer ul li a:hover {
+    color: #ff6347; /* Adjust hover color for cyan theme */
+  }
