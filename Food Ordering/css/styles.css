@@ -1,0 +1,247 @@
+/* css/styles.css */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em 0;
+  }
+  
+  header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  }
+  
+  header nav ul li {
+      margin: 0 1em;
+  }
+  
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  main {
+      padding: 2em;
+  }
+  
+  .featured-dishes {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .dish img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+  }
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+  }
+  
+  footer .social-buttons a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+  }
+  /* css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.featured-dishes, .menu-items, .gallery-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dish, .image {
+    margin: 1em;
+    text-align: center;
+}
+
+.dish img, .image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer .social-buttons a {
+    margin: 0 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 2em;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 2em auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff6f61;
+    font-family: 'Georgia', serif;
+}
+
+.featured-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-dishes .dish {
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fefefe;
+    width: calc(25% - 2em);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.featured-dishes .dish:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featured-dishes .dish img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    transition: transform 0.3s;
+}
+
+.featured-dishes .dish img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer .social-buttons a {
+    margin: 0 0.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-buttons a:hover {
+    color: #ffd700;
+}
