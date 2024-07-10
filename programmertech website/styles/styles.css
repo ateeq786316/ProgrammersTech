@@ -1,0 +1,534 @@
+body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+  }
+  
+  header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  
+  header nav ul li {
+      margin: 0 1em;
+  }
+  
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+      color: #bb86fc;
+  }
+  
+  main {
+      padding: 2em;
+      background-color: #1e1e1e;
+      max-width: 1200px;
+      margin: 2em auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+  }
+  
+  h1, h2 {
+      text-align: center;
+      color: #bb86fc;
+      font-family: 'Georgia', serif;
+  }
+  
+  .featured-courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .featured-courses .course {
+      margin: 1em;
+      text-align: center;
+      padding: 1em;
+      border: 1px solid #333;
+      border-radius: 8px;
+      background-color: #2a2a2a;
+      width: calc(25% - 2em);
+      transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .featured-courses .course:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  }
+  
+  .featured-courses .course img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1em;
+      transition: transform 0.3s;
+  }
+  
+  .featured-courses .course img:hover {
+      transform: scale(1.1);
+  }
+  
+  footer {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer .social-buttons a {
+      margin: 0 0.5em;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  footer .social-buttons a:hover {
+      color: #bb86fc;
+  }
+  body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+  }
+  
+  header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  
+  header nav ul li {
+      margin: 0 1em;
+  }
+  
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+      color: #bb86fc;
+  }
+  
+  main {
+      padding: 2em;
+      background-color: #1e1e1e;
+      max-width: 600px;
+      margin: 2em auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      text-align: center;
+  }
+  
+  h1 {
+      color: #bb86fc;
+      font-family: 'Georgia', serif;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+  }
+  
+  form label {
+      text-align: left;
+      font-weight: bold;
+  }
+  
+  form input {
+      padding: 0.5em;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+  }
+  
+  form button {
+      padding: 0.7em;
+      border: none;
+      border-radius: 4px;
+      background-color: #bb86fc;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+      background-color: #9a67ea;
+  }
+  
+  footer {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer .social-buttons a {
+      margin: 0 0.5em;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  footer .social-buttons a:hover {
+      color: #bb86fc;
+  }
+  
+  body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+  }
+  
+  header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  
+  header nav ul li {
+      margin: 0 1em;
+  }
+  
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+      color: #bb86fc;
+  }
+  
+  main {
+      padding: 2em;
+      background-color: #1e1e1e;
+      max-width: 600px;
+      margin: 2em auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      text-align: center;
+  }
+  
+  h1 {
+      color: #bb86fc;
+      font-family: 'Georgia', serif;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+  }
+  
+  form label {
+      text-align: left;
+      font-weight: bold;
+  }
+  
+  form input, form textarea {
+      padding: 0.5em;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+  }
+  
+  form textarea {
+      height: 100px;
+  }
+  
+  form button {
+      padding: 0.7em;
+      border: none;
+      border-radius: 4px;
+      background-color: #bb86fc;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+      background-color: #9a67ea;
+  }
+  
+  footer {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer .social-buttons a {
+      margin: 0 0.5em;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  footer .social-buttons a:hover {
+      color: #bb86fc;
+  }
+  body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+  }
+  
+  header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  
+  header nav ul li {
+      margin: 0 1em;
+  }
+  
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+      color: #bb86fc;
+  }
+  
+  main {
+      padding: 2em;
+      background-color: #1e1e1e;
+      max-width: 1200px;
+      margin: 2em auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      text-align: center;
+  }
+  
+  h1 {
+      color: #bb86fc;
+      font-family: 'Georgia', serif;
+  }
+  
+  .courses-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .course {
+      background-color: #2a2a2a;
+      margin: 1em;
+      padding: 1.5em;
+      border-radius: 8px;
+      width: calc(30% - 2em);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .course h2 {
+      color: #bb86fc;
+  }
+  
+  .course p {
+      text-align: left;
+      color: #e0e0e0;
+  }
+  
+  .course:hover {
+      transform: translateY(-5px);
+      background-color: #333;
+  }
+  
+  footer {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer .social-buttons a {
+      margin: 0 0.5em;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  footer .social-buttons a:hover {
+      color: #bb86fc;
+  }
+  body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+  }
+  
+  header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  
+  header nav ul li {
+      margin: 0 1em;
+  }
+  
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+      color: #bb86fc;
+  }
+  
+  main {
+      padding: 2em;
+      background-color: #1e1e1e;
+      max-width: 600px;
+      margin: 2em auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      text-align: center;
+  }
+  
+  h1 {
+      color: #bb86fc;
+      font-family: 'Georgia', serif;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .form-group {
+      margin-bottom: 1em;
+      text-align: left;
+  }
+  
+  .form-group label {
+      display: block;
+      margin-bottom: 0.5em;
+      color: #e0e0e0;
+  }
+  
+  .form-group input {
+      width: 100%;
+      padding: 0.5em;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+  }
+  
+  button {
+      padding: 0.75em;
+      border: none;
+      border-radius: 4px;
+      background-color: #bb86fc;
+      color: #fff;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  button:hover {
+      background-color: #9b68d4;
+  }
+  
+  footer {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer .social-buttons a {
+      margin: 0 0.5em;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  footer .social-buttons a:hover {
+      color: #bb86fc;
+  }
+  
